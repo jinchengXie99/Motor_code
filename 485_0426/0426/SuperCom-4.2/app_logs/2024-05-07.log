@@ -1,0 +1,431 @@
+[2024-05-07 17:13:55.206][I] [.cctor/60] 
+
+[2024-05-07 17:13:55.220][I] [.cctor/61] ███████╗██╗   ██╗██████╗ ███████╗██████╗  ██████╗ ██████╗ ███╗   ███╗
+[2024-05-07 17:13:55.220][I] [.cctor/62] ██╔════╝██║   ██║██╔══██╗██╔════╝██╔══██╗██╔════╝██╔═══██╗████╗ ████║
+[2024-05-07 17:13:55.220][I] [.cctor/63] ███████╗██║   ██║██████╔╝█████╗  ██████╔╝██║     ██║   ██║██╔████╔██║
+[2024-05-07 17:13:55.220][I] [.cctor/64] ╚════██║██║   ██║██╔═══╝ ██╔══╝  ██╔══██╗██║     ██║   ██║██║╚██╔╝██║
+[2024-05-07 17:13:55.220][I] [.cctor/65] ███████║╚██████╔╝██║     ███████╗██║  ██║╚██████╗╚██████╔╝██║ ╚═╝ ██║
+[2024-05-07 17:13:55.220][I] [.cctor/66] ╚══════╝ ╚═════╝ ╚═╝     ╚══════╝╚═╝  ╚═╝ ╚═════╝ ╚═════╝ ╚═╝     ╚═╝
+[2024-05-07 17:13:55.220][I] [.cctor/67] 
+
+[2024-05-07 17:13:55.220][I] [.cctor/69] app init, version: 4.2.0.0
+[2024-05-07 17:13:55.489][I] [.cctor/70] release date: 2023-12-15
+[2024-05-07 17:13:55.569][I] [OnStartup/84] exception handler init
+[2024-05-07 17:13:56.019][I] [GetAllPorts/173] get all ports:
+[2024-05-07 17:13:56.332][I] [GetAllPorts/182] COM8 - USB Serial Port (COM8)
+[2024-05-07 17:13:56.446][I] [Init/118] main window init
+[2024-05-07 17:13:56.720][I] [mainWindow_Loaded/3201] main window loaded
+[2024-05-07 17:13:56.810][W] [LoadAllThemes/74] theme path not exists, create new
+[2024-05-07 17:13:56.951][I] [ReadXshdList/283] read high light xshd success
+[2024-05-07 17:14:02.253][I] [PrintSetting/391] {
+  "BaudRate": 9600,
+  "DataBits": 8,
+  "Encoding": "utf-8",
+  "StopBits": "One",
+  "Parity": "None",
+  "DTR": false,
+  "Handshake": 0,
+  "ReadTimeout": 2000,
+  "WriteTimeout": 1000,
+  "SubcontractingTimeout": 10,
+  "DiscardNull": false,
+  "Remark": "",
+  "Pinned": false,
+  "Hide": false,
+  "TextFontSize": 15.0,
+  "HighLightIndex": 0,
+  "DataCheck": "{\r\n  \"Enabled\": false,\r\n  \"SelectedIndex\": 0,\r\n  \"UseCustom\": false,\r\n  \"CustomStart\": 0,\r\n  \"CustomEnd\": -1,\r\n  \"CustomInsert\": -1\r\n}",
+  "RTS": false
+}
+[2024-05-07 17:14:02.277][I] [OpenPort/615] success open port：COM8
+[2024-05-07 17:14:07.167][I] [GetNotices/106] begin pull notice
+[2024-05-07 17:14:07.186][I] [AsyncSend/103] HTTP [GET] URL = https://superstudio.github.io/SuperCom-Upgrade/notice.json
+[2024-05-07 17:14:54.145][I] [AsyncSend/103] HTTP [GET] URL = https://superstudio.github.io/SuperUpdate/list.json
+[2024-05-07 17:14:55.718][I] [AsyncSend/103] HTTP [GET] URL = https://superstudio.github.io/SuperUpdate/File/SuperUpdate.exe
+[2024-05-07 17:14:57.181][I] [AsyncSend/103] HTTP [GET] URL = https://superstudio.github.io/SuperCom-Upgrade/latest.json
+[2024-05-07 17:15:00.502][I] [CheckUpgrade/255] get superupdate.exe success
+[2024-05-07 17:15:00.503][I] [AsyncSend/103] HTTP [GET] URL = https://superstudio.github.io/SuperCom-Upgrade/latest.json
+[2024-05-07 17:15:01.829][I] [CheckUpgrade/260] get remote data success, latest: 4.2, date: 2023-12-15
+[2024-05-07 17:15:01.830][I] [CheckUpgrade/261] note: # 新增功能
+
+- [x] HEX 模式支持自动校验
+- [x] 鼠标悬停在串口上显示串口详细信息
+- [x] 支持显示串口类型
+- [x] 自定义回车换行内容
+- [x] 支持鼠标滚动决策固定
+- [x] 文件名日期命名补全 0
+- [x] 选项卡支持连接所有
+
+# 优化修复
+
+- [x] 优化语言支持
+- [x] 优化测试用例
+- [x] 修复设置中语法高亮高度
+- [x] 修复断开按钮无法点击
+- [x] 优化打开串口后才能保存
+
+[2024-05-07 17:15:04.199][I] [AsyncSend/103] HTTP [GET] URL = https://superstudio.github.io/SuperCom-Upgrade/list.json
+[2024-05-07 17:15:05.763][I] [AsyncSend/103] HTTP [GET] URL = https://superstudio.github.io/SuperUpdate/list.json
+[2024-05-07 17:15:06.074][I] [Info/291] 所有文件都是最新的，无需更新
+[2024-05-07 17:15:07.006][I] [AsyncSend/103] HTTP [GET] URL = https://superstudio.github.io/SuperUpdate/File/SuperUpdate.exe
+[2024-05-07 17:15:13.933][I] [CheckUpgrade/255] get superupdate.exe success
+[2024-05-07 17:15:13.933][I] [AsyncSend/103] HTTP [GET] URL = https://superstudio.github.io/SuperCom-Upgrade/latest.json
+[2024-05-07 17:15:16.382][I] [CheckUpgrade/260] get remote data success, latest: 4.2, date: 2023-12-15
+[2024-05-07 17:15:16.383][I] [CheckUpgrade/261] note: # 新增功能
+
+- [x] HEX 模式支持自动校验
+- [x] 鼠标悬停在串口上显示串口详细信息
+- [x] 支持显示串口类型
+- [x] 自定义回车换行内容
+- [x] 支持鼠标滚动决策固定
+- [x] 文件名日期命名补全 0
+- [x] 选项卡支持连接所有
+
+# 优化修复
+
+- [x] 优化语言支持
+- [x] 优化测试用例
+- [x] 修复设置中语法高亮高度
+- [x] 修复断开按钮无法点击
+- [x] 优化打开串口后才能保存
+
+[2024-05-07 17:15:31.516][I] [SetTextEditOption/2605] set ShowEndOfLine: True
+[2024-05-07 17:15:35.013][I] [SetTextEditOption/2605] set ShowSpaces: True
+[2024-05-07 17:15:37.965][I] [SetTextEditOption/2605] set ShowTabs: True
+[2024-05-07 17:16:16.756][I] [ReadXshdList/283] read high light xshd success
+[2024-05-07 17:16:17.373][I] [Info/240] 固定当前日志（日志仍在收集）
+[2024-05-07 17:16:17.374][I] [FixedText/280] fixed text: True
+[2024-05-07 17:16:19.333][I] [CloseAllPort/1085] close all port
+[2024-05-07 17:16:19.346][I] [CancelPreventSleep/147] cancel prevent system sleep
+[2024-05-07 17:16:19.346][I] [OnExit/103] ==========
+[2024-05-07 17:16:19.346][I] [OnExit/104] good bye!
+[2024-05-07 17:16:19.346][I] [OnExit/105] ==========
+[2024-05-07 17:16:41.021][I] [.cctor/60] 
+
+[2024-05-07 17:16:41.023][I] [.cctor/61] ███████╗██╗   ██╗██████╗ ███████╗██████╗  ██████╗ ██████╗ ███╗   ███╗
+[2024-05-07 17:16:41.024][I] [.cctor/62] ██╔════╝██║   ██║██╔══██╗██╔════╝██╔══██╗██╔════╝██╔═══██╗████╗ ████║
+[2024-05-07 17:16:41.024][I] [.cctor/63] ███████╗██║   ██║██████╔╝█████╗  ██████╔╝██║     ██║   ██║██╔████╔██║
+[2024-05-07 17:16:41.024][I] [.cctor/64] ╚════██║██║   ██║██╔═══╝ ██╔══╝  ██╔══██╗██║     ██║   ██║██║╚██╔╝██║
+[2024-05-07 17:16:41.024][I] [.cctor/65] ███████║╚██████╔╝██║     ███████╗██║  ██║╚██████╗╚██████╔╝██║ ╚═╝ ██║
+[2024-05-07 17:16:41.024][I] [.cctor/66] ╚══════╝ ╚═════╝ ╚═╝     ╚══════╝╚═╝  ╚═╝ ╚═════╝ ╚═════╝ ╚═╝     ╚═╝
+[2024-05-07 17:16:41.024][I] [.cctor/67] 
+
+[2024-05-07 17:16:41.024][I] [.cctor/69] app init, version: 4.2.0.0
+[2024-05-07 17:16:41.083][I] [.cctor/70] release date: 2023-12-15
+[2024-05-07 17:16:41.109][I] [OnStartup/84] exception handler init
+[2024-05-07 17:16:41.268][E] [InitSqlite/104] SQL logic error
+duplicate column name: EnabledFilter
+[2024-05-07 17:16:41.268][E] [InitSqlite/104] SQL logic error
+duplicate column name: EnabledMonitor
+[2024-05-07 17:16:41.268][E] [InitSqlite/104] SQL logic error
+duplicate column name: SendHex
+[2024-05-07 17:16:41.268][E] [InitSqlite/104] SQL logic error
+duplicate column name: RecvShowHex
+[2024-05-07 17:16:41.354][E] [Read/84] 类型“Newtonsoft.Json.Linq.JArray”的对象无法转换为类型“System.Collections.Generic.List`1[System.String]”。
+[2024-05-07 17:16:41.360][I] [GetAllPorts/173] get all ports:
+[2024-05-07 17:16:41.503][I] [GetAllPorts/182] COM8 - USB Serial Port (COM8)
+[2024-05-07 17:16:41.542][I] [Hide/70] set port[COM8] hide: False
+[2024-05-07 17:16:41.542][I] [Init/118] main window init
+[2024-05-07 17:16:41.670][I] [mainWindow_Loaded/3201] main window loaded
+[2024-05-07 17:16:41.790][I] [ReadXshdList/283] read high light xshd success
+[2024-05-07 17:16:41.862][I] [AddTimeStamp/176] port: COM8, AddTimeStamp: True
+[2024-05-07 17:16:41.862][I] [AddNewLineWhenWrite/126] set AddNewLineWhenWrite: True
+[2024-05-07 17:16:41.862][I] [SendHex/139] set SendHex: False
+[2024-05-07 17:16:41.862][I] [RecvShowHex/149] port: COM8, RecvShowHex: False
+[2024-05-07 17:16:41.923][I] [SetFontFamily/1470] set font: 微软雅黑
+[2024-05-07 17:16:42.009][I] [SaveDataCheck/3369] set datacheck
+[2024-05-07 17:16:42.523][I] [PrintSetting/391] {
+  "BaudRate": 9600,
+  "DataBits": 8,
+  "Encoding": "utf-8",
+  "StopBits": "One",
+  "Parity": "None",
+  "DTR": false,
+  "Handshake": 0,
+  "ReadTimeout": 2000,
+  "WriteTimeout": 1000,
+  "SubcontractingTimeout": 10,
+  "DiscardNull": false,
+  "Remark": "",
+  "Pinned": false,
+  "Hide": false,
+  "TextFontSize": 15.0,
+  "HighLightIndex": 0,
+  "DataCheck": "{\r\n  \"Enabled\": false,\r\n  \"SelectedIndex\": 0,\r\n  \"UseCustom\": false,\r\n  \"CustomStart\": 0,\r\n  \"CustomEnd\": -1,\r\n  \"CustomInsert\": -1\r\n}",
+  "RTS": false
+}
+[2024-05-07 17:16:42.539][E] [Error/286] 打开串口失败: COM8 => 对端口“COM8”的访问被拒绝。
+[2024-05-07 17:16:42.544][I] [ClosePort/681] close port：COM8 ret: True
+[2024-05-07 17:16:42.556][I] [ClosePort/681] close port：COM8 ret: True
+[2024-05-07 17:16:42.565][I] [OpenPort/615] success open port：COM8
+[2024-05-07 17:16:46.647][I] [CloseAllPort/1085] close all port
+[2024-05-07 17:16:46.659][I] [CancelPreventSleep/147] cancel prevent system sleep
+[2024-05-07 17:16:46.659][I] [OnExit/103] ==========
+[2024-05-07 17:16:46.659][I] [OnExit/104] good bye!
+[2024-05-07 17:16:46.659][I] [OnExit/105] ==========
+[2024-05-07 17:16:51.863][I] [.cctor/60] 
+
+[2024-05-07 17:16:51.865][I] [.cctor/61] ███████╗██╗   ██╗██████╗ ███████╗██████╗  ██████╗ ██████╗ ███╗   ███╗
+[2024-05-07 17:16:51.865][I] [.cctor/62] ██╔════╝██║   ██║██╔══██╗██╔════╝██╔══██╗██╔════╝██╔═══██╗████╗ ████║
+[2024-05-07 17:16:51.865][I] [.cctor/63] ███████╗██║   ██║██████╔╝█████╗  ██████╔╝██║     ██║   ██║██╔████╔██║
+[2024-05-07 17:16:51.865][I] [.cctor/64] ╚════██║██║   ██║██╔═══╝ ██╔══╝  ██╔══██╗██║     ██║   ██║██║╚██╔╝██║
+[2024-05-07 17:16:51.865][I] [.cctor/65] ███████║╚██████╔╝██║     ███████╗██║  ██║╚██████╗╚██████╔╝██║ ╚═╝ ██║
+[2024-05-07 17:16:51.865][I] [.cctor/66] ╚══════╝ ╚═════╝ ╚═╝     ╚══════╝╚═╝  ╚═╝ ╚═════╝ ╚═════╝ ╚═╝     ╚═╝
+[2024-05-07 17:16:51.865][I] [.cctor/67] 
+
+[2024-05-07 17:16:51.865][I] [.cctor/69] app init, version: 4.2.0.0
+[2024-05-07 17:16:51.925][I] [.cctor/70] release date: 2023-12-15
+[2024-05-07 17:16:51.948][I] [OnStartup/84] exception handler init
+[2024-05-07 17:16:52.095][E] [InitSqlite/104] SQL logic error
+duplicate column name: EnabledFilter
+[2024-05-07 17:16:52.095][E] [InitSqlite/104] SQL logic error
+duplicate column name: EnabledMonitor
+[2024-05-07 17:16:52.095][E] [InitSqlite/104] SQL logic error
+duplicate column name: SendHex
+[2024-05-07 17:16:52.095][E] [InitSqlite/104] SQL logic error
+duplicate column name: RecvShowHex
+[2024-05-07 17:16:52.177][E] [Read/84] 类型“Newtonsoft.Json.Linq.JArray”的对象无法转换为类型“System.Collections.Generic.List`1[System.String]”。
+[2024-05-07 17:16:52.182][I] [GetAllPorts/173] get all ports:
+[2024-05-07 17:16:52.315][I] [GetAllPorts/182] COM8 - USB Serial Port (COM8)
+[2024-05-07 17:16:52.351][I] [Hide/70] set port[COM8] hide: False
+[2024-05-07 17:16:52.351][I] [Init/118] main window init
+[2024-05-07 17:16:52.459][I] [mainWindow_Loaded/3201] main window loaded
+[2024-05-07 17:16:52.609][I] [ReadXshdList/283] read high light xshd success
+[2024-05-07 17:16:52.670][I] [SetFontFamily/1470] set font: 微软雅黑
+[2024-05-07 17:16:54.180][I] [AddTimeStamp/176] port: COM8, AddTimeStamp: True
+[2024-05-07 17:16:54.181][I] [AddNewLineWhenWrite/126] set AddNewLineWhenWrite: True
+[2024-05-07 17:16:54.181][I] [SendHex/139] set SendHex: False
+[2024-05-07 17:16:54.181][I] [RecvShowHex/149] port: COM8, RecvShowHex: False
+[2024-05-07 17:16:54.283][I] [SaveDataCheck/3369] set datacheck
+[2024-05-07 17:16:54.826][I] [PrintSetting/391] {
+  "BaudRate": 9600,
+  "DataBits": 8,
+  "Encoding": "utf-8",
+  "StopBits": "One",
+  "Parity": "None",
+  "DTR": false,
+  "Handshake": 0,
+  "ReadTimeout": 2000,
+  "WriteTimeout": 1000,
+  "SubcontractingTimeout": 10,
+  "DiscardNull": false,
+  "Remark": "",
+  "Pinned": false,
+  "Hide": false,
+  "TextFontSize": 15.0,
+  "HighLightIndex": 0,
+  "DataCheck": "{\r\n  \"Enabled\": false,\r\n  \"SelectedIndex\": 0,\r\n  \"UseCustom\": false,\r\n  \"CustomStart\": 0,\r\n  \"CustomEnd\": -1,\r\n  \"CustomInsert\": -1\r\n}",
+  "RTS": false
+}
+[2024-05-07 17:16:54.847][I] [OpenPort/615] success open port：COM8
+[2024-05-07 17:17:02.679][I] [GetNotices/106] begin pull notice
+[2024-05-07 17:17:02.693][I] [AsyncSend/103] HTTP [GET] URL = https://superstudio.github.io/SuperCom-Upgrade/notice.json
+[2024-05-07 17:17:04.194][W] [GetNotices/139] notice not change
+[2024-05-07 17:17:07.362][I] [PrintSetting/391] {
+  "BaudRate": 9600,
+  "DataBits": 8,
+  "Encoding": "utf-8",
+  "StopBits": "One",
+  "Parity": "None",
+  "DTR": true,
+  "Handshake": 0,
+  "ReadTimeout": 2000,
+  "WriteTimeout": 1000,
+  "SubcontractingTimeout": 10,
+  "DiscardNull": false,
+  "Remark": "",
+  "Pinned": false,
+  "Hide": false,
+  "TextFontSize": 15.0,
+  "HighLightIndex": 0,
+  "DataCheck": "{\r\n  \"Enabled\": false,\r\n  \"SelectedIndex\": 0,\r\n  \"UseCustom\": false,\r\n  \"CustomStart\": 0,\r\n  \"CustomEnd\": -1,\r\n  \"CustomInsert\": -1\r\n}",
+  "RTS": false
+}
+[2024-05-07 17:17:08.427][I] [PrintSetting/391] {
+  "BaudRate": 9600,
+  "DataBits": 8,
+  "Encoding": "utf-8",
+  "StopBits": "One",
+  "Parity": "None",
+  "DTR": true,
+  "Handshake": 0,
+  "ReadTimeout": 2000,
+  "WriteTimeout": 1000,
+  "SubcontractingTimeout": 10,
+  "DiscardNull": false,
+  "Remark": "",
+  "Pinned": false,
+  "Hide": false,
+  "TextFontSize": 15.0,
+  "HighLightIndex": 0,
+  "DataCheck": "{\r\n  \"Enabled\": false,\r\n  \"SelectedIndex\": 0,\r\n  \"UseCustom\": false,\r\n  \"CustomStart\": 0,\r\n  \"CustomEnd\": -1,\r\n  \"CustomInsert\": -1\r\n}",
+  "RTS": true
+}
+[2024-05-07 17:17:16.684][I] [PrintSetting/391] {
+  "BaudRate": 9600,
+  "DataBits": 8,
+  "Encoding": "gb2312",
+  "StopBits": "One",
+  "Parity": "None",
+  "DTR": true,
+  "Handshake": 0,
+  "ReadTimeout": 2000,
+  "WriteTimeout": 1000,
+  "SubcontractingTimeout": 10,
+  "DiscardNull": false,
+  "Remark": "",
+  "Pinned": false,
+  "Hide": false,
+  "TextFontSize": 15.0,
+  "HighLightIndex": 0,
+  "DataCheck": "{\r\n  \"Enabled\": false,\r\n  \"SelectedIndex\": 0,\r\n  \"UseCustom\": false,\r\n  \"CustomStart\": 0,\r\n  \"CustomEnd\": -1,\r\n  \"CustomInsert\": -1\r\n}",
+  "RTS": true
+}
+[2024-05-07 17:17:27.323][I] [PrintSetting/391] {
+  "BaudRate": 9600,
+  "DataBits": 8,
+  "Encoding": "gb2312",
+  "StopBits": "One",
+  "Parity": "None",
+  "DTR": false,
+  "Handshake": 0,
+  "ReadTimeout": 2000,
+  "WriteTimeout": 1000,
+  "SubcontractingTimeout": 10,
+  "DiscardNull": false,
+  "Remark": "",
+  "Pinned": false,
+  "Hide": false,
+  "TextFontSize": 15.0,
+  "HighLightIndex": 0,
+  "DataCheck": "{\r\n  \"Enabled\": false,\r\n  \"SelectedIndex\": 0,\r\n  \"UseCustom\": false,\r\n  \"CustomStart\": 0,\r\n  \"CustomEnd\": -1,\r\n  \"CustomInsert\": -1\r\n}",
+  "RTS": true
+}
+[2024-05-07 17:17:27.787][I] [PrintSetting/391] {
+  "BaudRate": 9600,
+  "DataBits": 8,
+  "Encoding": "gb2312",
+  "StopBits": "One",
+  "Parity": "None",
+  "DTR": false,
+  "Handshake": 0,
+  "ReadTimeout": 2000,
+  "WriteTimeout": 1000,
+  "SubcontractingTimeout": 10,
+  "DiscardNull": false,
+  "Remark": "",
+  "Pinned": false,
+  "Hide": false,
+  "TextFontSize": 15.0,
+  "HighLightIndex": 0,
+  "DataCheck": "{\r\n  \"Enabled\": false,\r\n  \"SelectedIndex\": 0,\r\n  \"UseCustom\": false,\r\n  \"CustomStart\": 0,\r\n  \"CustomEnd\": -1,\r\n  \"CustomInsert\": -1\r\n}",
+  "RTS": false
+}
+[2024-05-07 17:17:34.905][I] [PrintSetting/391] {
+  "BaudRate": 9600,
+  "DataBits": 8,
+  "Encoding": "us-ascii",
+  "StopBits": "One",
+  "Parity": "None",
+  "DTR": false,
+  "Handshake": 0,
+  "ReadTimeout": 2000,
+  "WriteTimeout": 1000,
+  "SubcontractingTimeout": 10,
+  "DiscardNull": false,
+  "Remark": "",
+  "Pinned": false,
+  "Hide": false,
+  "TextFontSize": 15.0,
+  "HighLightIndex": 0,
+  "DataCheck": "{\r\n  \"Enabled\": false,\r\n  \"SelectedIndex\": 0,\r\n  \"UseCustom\": false,\r\n  \"CustomStart\": 0,\r\n  \"CustomEnd\": -1,\r\n  \"CustomInsert\": -1\r\n}",
+  "RTS": false
+}
+[2024-05-07 17:17:40.892][I] [PrintSetting/391] {
+  "BaudRate": 9600,
+  "DataBits": 8,
+  "Encoding": "utf-8",
+  "StopBits": "One",
+  "Parity": "None",
+  "DTR": false,
+  "Handshake": 0,
+  "ReadTimeout": 2000,
+  "WriteTimeout": 1000,
+  "SubcontractingTimeout": 10,
+  "DiscardNull": false,
+  "Remark": "",
+  "Pinned": false,
+  "Hide": false,
+  "TextFontSize": 15.0,
+  "HighLightIndex": 0,
+  "DataCheck": "{\r\n  \"Enabled\": false,\r\n  \"SelectedIndex\": 0,\r\n  \"UseCustom\": false,\r\n  \"CustomStart\": 0,\r\n  \"CustomEnd\": -1,\r\n  \"CustomInsert\": -1\r\n}",
+  "RTS": false
+}
+[2024-05-07 17:17:46.467][I] [PrintSetting/391] {
+  "BaudRate": 9600,
+  "DataBits": 8,
+  "Encoding": "iso-8859-1",
+  "StopBits": "One",
+  "Parity": "None",
+  "DTR": false,
+  "Handshake": 0,
+  "ReadTimeout": 2000,
+  "WriteTimeout": 1000,
+  "SubcontractingTimeout": 10,
+  "DiscardNull": false,
+  "Remark": "",
+  "Pinned": false,
+  "Hide": false,
+  "TextFontSize": 15.0,
+  "HighLightIndex": 0,
+  "DataCheck": "{\r\n  \"Enabled\": false,\r\n  \"SelectedIndex\": 0,\r\n  \"UseCustom\": false,\r\n  \"CustomStart\": 0,\r\n  \"CustomEnd\": -1,\r\n  \"CustomInsert\": -1\r\n}",
+  "RTS": false
+}
+[2024-05-07 17:17:51.593][I] [PrintSetting/391] {
+  "BaudRate": 9600,
+  "DataBits": 8,
+  "Encoding": "gb2312",
+  "StopBits": "One",
+  "Parity": "None",
+  "DTR": false,
+  "Handshake": 0,
+  "ReadTimeout": 2000,
+  "WriteTimeout": 1000,
+  "SubcontractingTimeout": 10,
+  "DiscardNull": false,
+  "Remark": "",
+  "Pinned": false,
+  "Hide": false,
+  "TextFontSize": 15.0,
+  "HighLightIndex": 0,
+  "DataCheck": "{\r\n  \"Enabled\": false,\r\n  \"SelectedIndex\": 0,\r\n  \"UseCustom\": false,\r\n  \"CustomStart\": 0,\r\n  \"CustomEnd\": -1,\r\n  \"CustomInsert\": -1\r\n}",
+  "RTS": false
+}
+[2024-05-07 17:17:52.676][I] [AsyncSend/103] HTTP [GET] URL = https://superstudio.github.io/SuperCom-Upgrade/latest.json
+[2024-05-07 17:18:09.387][I] [SendHex/139] set SendHex: True
+[2024-05-07 17:18:10.714][I] [SendHex/139] set SendHex: False
+[2024-05-07 17:18:11.514][I] [AddNewLineWhenWrite/126] set AddNewLineWhenWrite: False
+[2024-05-07 17:18:12.306][I] [AddNewLineWhenWrite/126] set AddNewLineWhenWrite: True
+[2024-05-07 17:18:12.610][I] [AddNewLineWhenWrite/126] set AddNewLineWhenWrite: False
+[2024-05-07 17:18:13.266][I] [SendHex/139] set SendHex: True
+[2024-05-07 17:18:13.498][I] [SendHex/139] set SendHex: False
+[2024-05-07 17:18:41.467][I] [OpenPath/919] open log dir, portName: COM8
+[2024-05-07 17:18:49.540][I] [Info/240] 固定当前日志（日志仍在收集）
+[2024-05-07 17:18:49.540][I] [FixedText/280] fixed text: True
+[2024-05-07 17:19:05.322][I] [FixedText/280] fixed text: False
+[2024-05-07 17:19:25.598][I] [Info/240] 固定当前日志（日志仍在收集）
+[2024-05-07 17:19:25.598][I] [FixedText/280] fixed text: True
+[2024-05-07 17:19:27.226][I] [FixedText/280] fixed text: False
+[2024-05-07 17:19:34.106][I] [RecvShowHex/149] port: COM8, RecvShowHex: True
+[2024-05-07 17:19:37.770][I] [RecvShowHex/149] port: COM8, RecvShowHex: False
+[2024-05-07 17:19:42.236][I] [ClearData/909] clear data: COM8
+[2024-05-07 17:20:14.300][I] [Info/240] 固定当前日志（日志仍在收集）
+[2024-05-07 17:20:14.301][I] [FixedText/280] fixed text: True
+[2024-05-07 17:20:27.561][I] [FixedText/280] fixed text: False
+[2024-05-07 17:20:29.797][I] [Info/240] 固定当前日志（日志仍在收集）
+[2024-05-07 17:20:29.797][I] [FixedText/280] fixed text: True
+[2024-05-07 17:20:48.614][I] [CloseAllPort/1085] close all port
+[2024-05-07 17:20:48.628][I] [CancelPreventSleep/147] cancel prevent system sleep
+[2024-05-07 17:20:48.628][I] [OnExit/103] ==========
+[2024-05-07 17:20:48.628][I] [OnExit/104] good bye!
+[2024-05-07 17:20:48.628][I] [OnExit/105] ==========
